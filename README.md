@@ -1,4 +1,4 @@
-# joncrangle Tap
+# `joncrangle` Tap
 
 ## How do I install these formulae?
 
