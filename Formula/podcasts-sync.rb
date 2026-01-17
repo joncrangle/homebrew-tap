@@ -6,10 +6,10 @@ class PodcastsSync < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/joncrangle/podcasts-sync/releases/download/v0.2.1/podcasts-sync_Darwin_arm64.tar.gz"
-      sha256 "5a56b11dab2f8f30e5286fb825e75b94e8ec95ee64dac56b37a4169ea56555bb"
+      sha256 "062f7ccd4208c36fad8de65f6c59fb913ef5a079226deef401ea053ce34398b6"
     else
       url "https://github.com/joncrangle/podcasts-sync/releases/download/v0.2.1/podcasts-sync_Darwin_x86_64.tar.gz"
-      sha256 "90cb5134a452d91b268a3c7f859844f46600d37e1f29e8aad2a3ebb10e09ace9"
+      sha256 "11614a4f42c8f5310bd9f71c9c5a5579a901100c4646db946aa83152660234ed"
     end
   end
 
