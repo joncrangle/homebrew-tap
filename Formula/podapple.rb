@@ -5,11 +5,11 @@ class PodApple < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/joncrangle/podapple/releases/download/v0.1.1/podapple_0.1.1_Darwin_arm64.tar.gz"
-      sha256 "754c67ef6fc5230f7c2bcf7e1be1083425cde055b4ba573d1e2c2cfb7e8ed1db"
+      url "https://github.com/joncrangle/podapple/releases/download/v0.1.2/podapple_0.1.2_Darwin_arm64.tar.gz"
+      sha256 "2c1cc63661397ffdded6d6bcf9ad0880097ee334a7f1e845b48d5f06b3e635ed"
     else
-      url "https://github.com/joncrangle/podapple/releases/download/v0.1.1/podapple_0.1.1_Darwin_x86_64.tar.gz"
-      sha256 "a3a923e0c9d7a1d8352c1e365afc5d17f254995a39756235d5400fc4d853841c"
+      url "https://github.com/joncrangle/podapple/releases/download/v0.1.2/podapple_0.1.2_Darwin_x86_64.tar.gz"
+      sha256 "9159081271e98af9d30dc72be0cee809b75176c98fc2ad2caf87ca0be0405ac5"
     end
   end
 
