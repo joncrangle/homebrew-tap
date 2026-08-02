@@ -1,4 +1,4 @@
-class PodApple < Formula
+class Podapple < Formula
   desc "A modern, terminal-based Apple Podcasts synchronizer built for speed and simplicity."
   homepage "https://github.com/joncrangle/podapple"
   license "GPL-3.0-only"
