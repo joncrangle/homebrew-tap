@@ -5,11 +5,11 @@ class SketchybarSystemStats < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/joncrangle/sketchybar-system-stats/releases/download/0.8.2/stats_provider-0.8.2-aarch64-apple-darwin.tar.gz"
-      sha256 "e6f6230dae264224ba9e6ef59323c2c3f7234ae24e98a5a5ca1ee8a1581b92fe"
+      url "https://github.com/joncrangle/sketchybar-system-stats/releases/download/0.9.0/stats_provider-0.9.0-aarch64-apple-darwin.tar.gz"
+      sha256 "42e4c7cd3e25a9e8560c42c05d1fed46ac262a64765e1c00331674a81cdbe3d4"
     else
-      url "https://github.com/joncrangle/sketchybar-system-stats/releases/download/0.8.2/stats_provider-0.8.2-x86_64-apple-darwin.tar.gz"
-      sha256 "a845671f3a98c0aa51d283760faeddded1d92e377c80f862e3b5966eafcd0eb4"
+      url "https://github.com/joncrangle/sketchybar-system-stats/releases/download/0.9.0/stats_provider-0.9.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d213fbedcd12a7ee10aa1ff35c72b0f8f5f5c17c7bb0785716584a6f73263597"
     end
   end
 
